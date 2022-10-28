@@ -191,8 +191,13 @@ a:hover {
     color: black;
 }
 
-.pricing-col {
-    /* padding: 3%; */
+.card:hover {
+    transform: scale(105%);
+    transition: 180ms ease-in;
+}
+
+.card {
+    transition: 180ms ease-out;
 }
 
 /* Download section */
