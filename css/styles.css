@@ -194,6 +194,7 @@ a:hover {
 .card:hover {
     transform: scale(105%);
     transition: 180ms ease-in;
+    cursor: pointer;
 }
 
 .card {
