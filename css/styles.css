@@ -34,13 +34,29 @@ a:hover {
     color: #FF4C68;
 }
 
+#features,
+#testimonials,
+#press,
+#pricing,
+#cta,
+#footer {
+    padding: 7%;
+}
+
+
+
 #title {
     background-color: #FF4C68;
     color: white;
+    padding-bottom: 7%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
-.container-fluid {
-    padding: 3% 15% 7%;
+.container-sm {
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .row {
@@ -95,7 +111,7 @@ a:hover {
 
 #features {
     background-color: white;
-    padding: 7% 15%;
+    /* padding: 7% 15%; */
     text-align: center;
     position: relative;
     z-index: 1;
@@ -120,6 +136,12 @@ a:hover {
     text-align: center;
     background-color: #ef8172;
     color: white;
+    /* padding: 2rem 0; */
+}
+
+#testimonials p {
+    color: white;
+    font-style: italic;
 }
 
 .testimonial-img {
@@ -129,20 +151,27 @@ a:hover {
 }
 
 .carousel-item {
-    padding: 7% 15%;
+    padding: 0 15%;
 }
 
 /* Press section */
 
 #press {
     text-align: center;
-    background-color: #ef8172;
-    padding-bottom: 3%;
+    /* background-color: #ef8172; */
+    /* padding: 2rem 0; */
 }
 
 .press-logo {
-    width: 15%;
-    margin: 1.25rem 1.25rem 3.125rem;
+    width: 18%;
+}
+
+.press-logos {
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
 }
 
 /* Pricing section */
@@ -152,8 +181,12 @@ a:hover {
     text-align: center;
 }
 
+.plan-price-txt {
+    color: black;
+}
+
 .pricing-col {
-    padding: 3%;
+    /* padding: 3%; */
 }
 
 /* Download section */
@@ -162,13 +195,14 @@ a:hover {
     text-align: center;
     background-color: #FF4C68;
     color: white;
-    padding: 10%;
+    /* padding: 10%; */
 }
 
 .cta-btns {
     display: flex;
     place-content: center;
-    gap: 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
     margin-top: 3rem;
 }
 /* Footer */
@@ -176,7 +210,7 @@ a:hover {
 #footer {
     text-align: center;
     background-color: white;
-    padding: 5%;
+    /* padding: 5%; */
 }
 
 .social-icons {
@@ -188,7 +222,7 @@ a:hover {
 
 /* Media queries */
 
-@media (max-width: 78.15rem) and (min-width: 64rem) {
+@media (max-width: 78.15rem) and (min-width: 60rem) {
    
     h1 {
         font-size: 2.5rem;
@@ -200,15 +234,69 @@ a:hover {
     }
 }
 
-@media (max-width: 64rem) {
+@media (max-width: 62rem) {
 
     #title {
         text-align: center;
         
     }
 
+    h1 {
+        font-size: 2.5rem;
+        
+    }
+
+    h2 {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .navbar-brand {
+        font-size: 2rem;
+    }
+
     .hero-img {
         position: static;
         transform: rotate(0);
     }
+
+    #testimonials i {
+        font-size: 1.5rem;
+    }
+
+    .testimonial-img {
+        width: 40%;
+        margin-top: 1rem;
+        margin-bottom: 0.4rem;
+    }
+
+    #testimonials p {
+        font-size: 0.8rem;
+    }
+
+    #testimonials h2 {
+        font-size: 1rem;
+    }
+
+    .press-logos {
+        padding: 8%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .press-logo {
+        width: 40%;
+    }
+
+    #features,
+    #testimonials,
+    #press,
+    #pricing,
+    #cta,
+    #footer {
+        padding: 15% 5%;
+    }
+
 }
