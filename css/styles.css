@@ -205,7 +205,7 @@ a:hover {
         text-align: center;
     }
 
-    h1 {
+    /* h1 {
         font-size: 2.5rem;
     }
 
@@ -216,7 +216,7 @@ a:hover {
 
     .navbar-brand {
         font-size: 1.5rem;
-    }
+    } */
 
     .hero-img {
         position: static;
