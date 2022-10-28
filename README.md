@@ -1,2 +1,0 @@
-# angela-yu-bootcamp-tindog
- 
