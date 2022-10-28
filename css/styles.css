@@ -43,7 +43,13 @@ a:hover {
     padding: 7%;
 }
 
+.bg-tindog-red {
+    background-color: #FF4C68;
+}
 
+.border-tindog-red {
+    border-color: #FF4C68;
+}
 
 #title {
     background-color: #FF4C68;
@@ -216,7 +222,7 @@ a:hover {
 .social-icons {
     display: flex;
     place-content: center;
-    gap: 1.5rem;
+    gap: 2.5rem;
     margin-bottom: 2rem;
 }
 
@@ -238,7 +244,7 @@ a:hover {
 
     #title {
         text-align: center;
-        
+        margin-bottom: -2rem;
     }
 
     h1 {
@@ -256,8 +262,11 @@ a:hover {
     }
 
     .hero-img {
-        position: static;
-        transform: rotate(0);
+        width: 100%;
+        position: relative;
+        bottom: -2rem;
+        transform: rotate(-5deg);
+        z-index: 2;
     }
 
     #testimonials i {
@@ -296,7 +305,11 @@ a:hover {
     #pricing,
     #cta,
     #footer {
-        padding: 15% 5%;
+        padding: 20% 5%;
+    }
+
+    .feature-box {
+        /* padding: 10% 5%; */
     }
 
 }
