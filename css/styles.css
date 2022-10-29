@@ -1,3 +1,8 @@
+:root {
+    --tindog-red: #FF4C68;
+    --tindog-orange: #FB784C;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
@@ -19,12 +24,12 @@ body {
 
 ::-moz-selection { /* Code for Firefox */
     color: white;
-    background: #FF4C68;
+    background: var(--tindog-red);
   }
   
 ::selection {
     color: white;
-    background: #FF4C68;
+    background: var(--tindog-red);
 }
 
 h1 {
@@ -55,7 +60,16 @@ a {
 }
 
 a:hover {
-    color: #FF4C68;
+    color: var(--tindog-red);
+}
+
+footer a:hover {
+    color: var(--tindog-red);
+    background: var(--tindog-orange);
+    background-image: linear-gradient(30deg, var(--tindog-red) 40%, var(--tindog-orange) 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 #features,
@@ -67,16 +81,8 @@ a:hover {
     padding: 7%;
 }
 
-.bg-tindog-red {
-    background-color: #FF4C68;
-}
-
-.border-tindog-red {
-    border-color: #FF4C68;
-}
-
 #title {
-    background-color: #FF4C68;
+    background-color: var(--tindog-red);
     color: white;
     padding-bottom: 7%;
     padding-left: 5%;
@@ -143,19 +149,19 @@ a:hover {
 
 #features {
     background-color: white;
-    /* padding: 7% 15%; */
     text-align: center;
     position: relative;
     z-index: 1;
 }
 
 #features i {
-    color: #fb784c;
+    color:  var(--tindog-orange);
     margin-bottom: 1rem;
-}
-
-#features i:hover {
-    color: #FF4C68;
+    background: var(--tindog-orange);
+    background-image: linear-gradient(30deg, var(--tindog-red) 40%, var(--tindog-orange) 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .feature-box {
@@ -166,9 +172,9 @@ a:hover {
 
 #testimonials {
     text-align: center;
-    background-color: #fb784c;
+    background-color: var(--tindog-orange);
+    background-image: linear-gradient(to right, var(--tindog-red) 20%, var(--tindog-orange));
     color: white;
-    /* padding: 2rem 0; */
 }
 
 #testimonials p {
@@ -190,8 +196,6 @@ a:hover {
 
 #press {
     text-align: center;
-    /* background-color: #ef8172; */
-    /* padding: 2rem 0; */
 }
 
 .press-logo {
@@ -227,13 +231,17 @@ a:hover {
     transition: 180ms ease-out;
 }
 
+.btn-mastiff {
+    border-color: var(--tindog-red);
+    background-color: var(--tindog-red);
+}
+
 /* Download section */
 
 #cta {
     text-align: center;
-    background-color: #FF4C68;
+    background-color: var(--tindog-red);
     color: white;
-    /* padding: 10%; */
 }
 
 .cta-btns {
@@ -248,7 +256,6 @@ a:hover {
 #footer {
     text-align: center;
     background-color: white;
-    /* padding: 5%; */
 }
 
 .social-icons {
@@ -268,7 +275,6 @@ a:hover {
 
     .hero-img {
         position: static;
-        /* transform: rotate(0); */
     }
 }
 
