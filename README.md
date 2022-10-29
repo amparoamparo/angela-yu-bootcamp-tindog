@@ -41,6 +41,8 @@ This project was meant to teach me how to use Bootstrap.
 
 Most the time, I felt like it would've been easier for me to just use custom CSS, since I've grown used to using flexbox and grid. But, it was still quite fun to learn Bootstrap, and I can definitely see how it can make bringing a large site to life faster, easier and very simple, whilst still being able to customise certain aspects.
 
+Lastly, I had lots of fun making the website more accessible for screen readers.
+
 ### Continued development
 
 I will continue to experiment with Bootstrap in the future, and I will also learn other CSS Frameworks (like Tailwind).
