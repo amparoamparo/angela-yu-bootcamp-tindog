@@ -19,7 +19,7 @@ This is my solution to the "tindog" challenge from Angela Yu's Web Development B
 ### Screenshots
 
 - [Desktop/Laptop](screenshots/angela-yu-bootcamp-tindog-amparo-Desktop.png)
-- [Tablet](screenshots/angela-yu-bootcamp-tindog-amparo-iPad-Air.png)
+- [Tablet (horizontal)](screenshots/angela-yu-bootcamp-tindog-amparo-iPad-Air.png)
 - [Phone](screenshots/angela-yu-bootcamp-tindog-amparo-iPhone-12-Pro.png)
 
 ### Links
