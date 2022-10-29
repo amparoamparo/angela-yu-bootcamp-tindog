@@ -112,11 +112,6 @@ a:hover {
     font-weight: bold;
 }
 
-.nav-item {
-    /* padding: 0 1.125rem; */
-    /* gap: 1.125rem; */
-}
-
 .nav-link {
     font-size: 1.2rem;
     font-weight: 500;
@@ -344,9 +339,4 @@ a:hover {
     #footer {
         padding: 20% 5%;
     }
-
-    .feature-box {
-        /* padding: 10% 5%; */
-    }
-
 }
