@@ -3,6 +3,30 @@ body {
     margin: 0;
 }
 
+#title ::-moz-selection,
+#cta ::selection,
+#testimonials ::selection { /* Code for Firefox */
+    color: white;
+    background: black;
+  }
+  
+#title ::selection,
+#cta ::selection,
+#testimonials ::selection {
+    color: white;
+    background: black;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: #FF4C68;
+  }
+  
+::selection {
+    color: white;
+    background: #FF4C68;
+}
+
 h1 {
     font-family: "Montserrat", sans-serif;
     font-weight: 900;
