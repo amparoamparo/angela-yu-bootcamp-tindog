@@ -5,7 +5,7 @@ This is my solution to the "tindog" challenge from Angela Yu's Web Development B
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot](#screenshots)
+  - [Screenshots](#screenshots)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
