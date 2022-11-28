@@ -19,7 +19,7 @@ This is my solution to the "tindog" challenge from Angela Yu's Web Development B
 ### Screenshots
 
 - [Desktop/Laptop](screenshots/angela-yu-bootcamp-tindog-amparo-Desktop.png)
-- [Tablet (horizontal)](screenshots/angela-yu-bootcamp-tindog-amparo-iPad-Air.png)
+- [Tablet (landscape)](screenshots/angela-yu-bootcamp-tindog-amparo-iPad-Air.png)
 - [Phone](screenshots/angela-yu-bootcamp-tindog-amparo-iPhone-12-Pro.png)
 
 ### Links
@@ -53,6 +53,7 @@ I will continue to experiment with Bootstrap in the future, and I will also lear
 
 ## Author
 
-- GitHub - [@amparoamparo](https://github.com/amparoamparo)
-- LinkedIn - [@amparozeballos](https://linkedin.com/in/amparozeballos)
-- Twitter - [@amparowebdev](https://www.twitter.com/amparowebdev)
+- Amparo 💀 - [Say hello 😀](mailto:hello@amparo.ooo?subject=Hello%20from%20GitHub)
+- Frontend Mentor - [@amparoamparo](https://www.frontendmentor.io/profile/amparoamparo)
+- freeCodeCamp - [@amparo](https://freecodecamp.org/amparo)
+- GitHub - [@amparoamparo](https://www.github.com/amparoamparo)
